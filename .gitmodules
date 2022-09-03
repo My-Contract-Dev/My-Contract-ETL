@@ -1,0 +1,3 @@
+[submodule "ethereum-etl"]
+	path = ethereum-etl
+	url = https://github.com/My-Contract-Dev/ethereum-etl

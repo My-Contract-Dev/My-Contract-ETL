@@ -1,0 +1,5 @@
+services:
+  mainnet:
+    build: .
+    network_mode: "host"
+    command: python3 -m ethereumetl.cli stream -e block --output=clickhouse://default@localhost:9000/eth -p https://eth.public-rpc.com  
